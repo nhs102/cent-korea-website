@@ -44,7 +44,11 @@ export default function GallerySlider() {
 
   const handleManualNav = (direction: "prev" | "next") => {
     clearNextTimeout(); // 수동 조작 시 타이머 초기화
-    direction === "prev" ? slider.current?.prev() : slider.current?.next();
+    if (direction === "prev") {
+    slider.current?.prev();
+  } else {
+    slider.current?.next();
+  }
     nextTimeout(); // 새 타이머 재설정
   };
 

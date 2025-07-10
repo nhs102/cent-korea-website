@@ -6,7 +6,7 @@ export default function ContactForm() {
   const formRef = useRef<HTMLFormElement>(null);
   const [showToast, setShowToast] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = () => {
     setShowToast(true);
     setTimeout(() => setShowToast(false), 3000);
 
