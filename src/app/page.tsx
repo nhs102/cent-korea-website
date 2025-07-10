@@ -1,10 +1,10 @@
 // src/app/page.tsx
 
-import GallerySlider from "@/components/galleryslider";
-import ProductSection from "@/components/productsection";
-import ContactForm from "@/components/contactform";
-import AboutSection from "@/components/aboutus";
-import HistorySection from "@/components/historysection";
+import GallerySlider from "@/components/GallerySlider";
+import ProductSection from "@/components/ProductSection";
+import ContactForm from "@/components/ContactForm";
+import AboutSection from "@/components/AboutUs";
+import HistorySection from "@/components/HistorySection";
 
 export default function Home() {
   return (

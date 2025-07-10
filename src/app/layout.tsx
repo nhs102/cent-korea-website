@@ -3,8 +3,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css"; // Import global CSS
-import Header from "@/components/header"; // Import Header component
-import Footer from "@/components/footer"; // Import Footer component
+import Header from "@/components/Header"; // Import Header component
+import Footer from "@/components/Footer"; // Import Footer component
 
 // Font configuration (applying Tailwind variables)
 const geistSans = Geist({
