@@ -46,3 +46,19 @@ git clone https://github.com/[사용자명]/cent-korea-website.git
 cd cent-korea-website
 npm install
 npm run dev
+
+<br/>
+
+📦 배포
+Vercel을 통한 자동 배포
+
+환경 변수는 .env.local에 분리하여 관리
+
+<br/>
+
+📩 문의
+문의 사항은 웹사이트 내 견적 문의 섹션을 통해 접수 부탁드립니다.
+
+<br/>
+
+© CENT KOREA. All rights reserved.
