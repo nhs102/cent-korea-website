@@ -38,7 +38,7 @@ export default function ContactForm() {
 
       <form
         ref={formRef}
-        action="https://formspree.io/f/xanjrjlj"
+        action={process.env.NEXT_PUBLIC_FORMSPREE_URL}
         method="POST"
         onSubmit={handleSubmit}
         className="space-y-6"
