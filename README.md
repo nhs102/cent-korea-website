@@ -46,6 +46,7 @@ git clone https://github.com/[사용자명]/cent-korea-website.git
 cd cent-korea-website
 npm install
 npm run dev
+```
 
 <br/>
 
